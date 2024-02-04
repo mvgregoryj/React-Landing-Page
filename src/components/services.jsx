@@ -14,12 +14,16 @@ export const Services = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
+                <div key={`${d.name}-${i}`} className="col-xs-6 col-lg">
                   {" "}
                   <i className={d.icon}></i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    {d.text.split('\n').map((line, index) => (
+                      <p key={index}>{line}</p>
+                    ))}
+                    <p>Precio: {d.price}</p>
+                    <button type="button">Comprar</button>
                   </div>
                 </div>
               ))

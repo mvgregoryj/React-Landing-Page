@@ -604,3 +604,8 @@ label {
     margin: 50px 0;
   }
 }
+
+.my-video {
+  max-width: 100%;
+  height: auto;
+}

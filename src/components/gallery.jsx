@@ -1,4 +1,4 @@
-import { Image } from "./image";
+import { Video } from "./video";
 import React from "react";
 
 export const Gallery = (props) => {
@@ -13,22 +13,22 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className="row">
-          <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      title={d.title}
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
-                  </div>
-                ))
-              : "Loading..."}
-          </div>
+          {props.data
+            ? props.data.slice(0, 3).map((d, i) => (
+                <div key={`${d.title}-${i}`} className="col-sm-4">
+                  <Video title={d.title} src={d.src} />
+                </div>
+              ))
+            : "Loading..."}
+        </div>
+        <div className="row">
+          {props.data
+            ? props.data.slice(3, 4).map((d, i) => (
+                <div key={`${d.title}-${i}`} className="col-sm-12">
+                  <Video title={d.title} src={d.src} />
+                </div>
+              ))
+            : "Loading..."}
         </div>
       </div>
     </div>
