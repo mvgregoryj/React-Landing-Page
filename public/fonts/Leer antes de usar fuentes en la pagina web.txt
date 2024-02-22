@@ -1,0 +1,3 @@
+Se uso la fuente Garniser para resaltar titulos y textos en sus dos formas, mayusculas y minusculas.
+
+Se uso la fuente Poppins en su estilo Medium en 38 pts para textos descriptivos
