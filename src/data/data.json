@@ -18,6 +18,20 @@
       "Lorem ipsum dolor"
     ]
   },
+  "Carousel": [
+    {
+      "src": "img/carousel/carrusel pagina 1.png",
+      "alt": "Titulo 1"
+    },
+    {
+      "src": "img/carousel/carrusel pagina 2.png",
+      "alt": "About Us"
+    },
+    {
+      "src": "img/carousel/carrusel pagina 3.png",
+      "alt": "Titulo 2"
+    }
+  ],
   "Gallery": [
     {
       "title": "Vertical",
