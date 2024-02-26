@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 // import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Services } from "./components/services";
 // import { About } from "./components/about";
 // import { Services } from "./components/services";
 import { CustomCarousel } from "./components/carousel";
@@ -31,7 +31,7 @@ const App = () => {
       <About data={landingPageData.About} /> */}
       <CustomCarousel data={landingPageData.Carousel} />
       <Gallery data={landingPageData.Gallery} />
-      <Features data={landingPageData.Features} />
+      <Services data={landingPageData.Services} />
       {/* <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} /> */}

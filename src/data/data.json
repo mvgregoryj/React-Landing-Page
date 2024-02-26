@@ -50,20 +50,6 @@
       "src": "videos/horizontal.mp4"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Video corporativo",
-      "text": "Visibilidad de Alto Impacto: Nuestros videos son diseñados específicamente para TikTok e Instagram, plataformas líderes en redes sociales, asegurando una amplia visibilidad con un potencial de 5,000 a 500,000 vistas por video.\nEnfoque Personalizado en tu Negocio: Cada video se centra en resaltar los aspectos únicos de tu empresa, desde el modelo de negocio hasta las finanzas y operaciones, proporcionando una narrativa atractiva y adaptada a tu marca.\nContenido Adaptado a las Tendencias Actuales: Nos mantenemos al día con las últimas tendencias en redes sociales para garantizar que tu contenido sea relevante, atractivo y capte la atención del público objetivo.\nEstrategias de Marketing Integradas: No solo creamos contenido visualmente atractivo, sino que también integramos estrategias de marketing digital para maximizar el alcance y la interacción con la audiencia.\nAnálisis y Mejora Continua: Ofrecemos análisis detallados del rendimiento de cada video, permitiéndote comprender el impacto y ajustar las estrategias para futuras campañas, asegurando así una mejora continua y resultados óptimos.",
-      "price": "$350"
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consultoría personalizada",
-      "text": "Asesoramiento Experto en Todas las Etapas del Negocio: Benefíciate de una sesión de una hora con Jean Marcel y Doriann, donde te ofreceremos orientación personalizada en las diferentes etapas de desarrollo de tu negocio, desde el inicio hasta el crecimiento sostenido.\nDesarrollo de Estrategias de Marketing y Venta Efectivas: Juntos, trabajaremos para crear y afinar estrategias de marketing y venta innovadoras y efectivas, adaptadas específicamente a las necesidades y metas de tu empresa.\nSelección de Herramientas para Acelerar tu Negocio: Te ayudaremos a identificar y utilizar las herramientas y programas más adecuados para acelerar el crecimiento y la eficiencia de tu negocio, asegurando que aproveches al máximo los recursos disponibles.\nAumento de la Visibilidad de tu Negocio: Exploraremos diversas técnicas y estrategias para incrementar la visibilidad de tu negocio, tanto en plataformas digitales como en canales tradicionales, para alcanzar una audiencia más amplia.\nExpansión Orgánica y Saludable de tu Empresa: Nuestro enfoque se centra en el crecimiento orgánico y saludable de tu negocio, garantizando una expansión sostenible que respete los valores y la esencia de tu marca, evitando el crecimiento excesivo o inmanejable.",
-      "price": "$250"
-    }
-  ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -126,7 +112,7 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
+  "Services": [
     {
       "icon": "fa fa-comments-o",
       "title": "Video corporativo",
