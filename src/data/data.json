@@ -34,20 +34,20 @@
   ],
   "Gallery": [
     {
-      "title": "Vertical",
-      "src": "videos/vertical.mp4"
+      "title": "Titulo 1",
+      "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7339538753762954539"
     },
     {
-      "title": "Vertical",
-      "src": "videos/vertical.mp4"
+      "title": "Titulo 2",
+      "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7338434888342703403"
     },
     {
-      "title": "Vertical",
-      "src": "videos/vertical.mp4"
+      "title": "Titulo 3",
+      "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7335047229302082862"
     },
     {
-      "title": "Horizontal",
-      "src": "videos/horizontal.mp4"
+      "title": "Titulo 4",
+      "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7333188939638934826"
     }
   ],
   "Testimonials": [
@@ -104,6 +104,18 @@
       "job": "Project Manager"
     }
   ],
+  "Services": [
+    {
+      "icon": "icons/video_icon.svg",
+      "title": "VIDEO",
+      "price": "$350"
+    },
+    {
+      "icon": "icons/consultoria_icon.svg",
+      "title": "CONSULTORIA",
+      "price": "$250"
+    }
+  ],
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
@@ -111,17 +123,5 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Services": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Video corporativo",
-      "text": "Impulsa la imagen de tu negocio con un video corporativo de alta calidad. En Emprendimiento 101, te ofrecemos un video profesional y atractivo para tu sitio web o redes sociales por tan solo $350."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Consultoría personalizada",
-      "text": "¿Necesitas ayuda para mejorar la rentabilidad de tu negocio o impulsar tus ventas? En Emprendimiento 101, te ofrecemos una hora de consultoría personalizada junto a nuestro experto Doriann por tan solo $250."
-    }
-  ]
+  }
 }

@@ -1,4 +1,5 @@
-import { Video } from "./video";
+// import { Video } from "./video";
+import { TikTokEmbed } from 'react-social-media-embed';
 import React from "react";
 
 export const Gallery = (props) => {
@@ -8,8 +9,11 @@ export const Gallery = (props) => {
         <div className="row">
           {props.data
             ? props.data.slice(0, 3).map((d, i) => (
+                // <div key={`${d.title}-${i}`} className="col-sm-4">
+                //   <Video title={d.title} src={d.src} />
+                // </div>
                 <div key={`${d.title}-${i}`} className="col-sm-4">
-                  <Video title={d.title} src={d.src} />
+                  <TikTokEmbed url={d.url}/>
                 </div>
               ))
             : "Loading..."}
@@ -17,8 +21,11 @@ export const Gallery = (props) => {
         <div className="row">
           {props.data
             ? props.data.slice(3, 4).map((d, i) => (
+                // <div key={`${d.title}-${i}`} className="col-sm-12">
+                //   <Video title={d.title} src={d.src} />
+                // </div>
                 <div key={`${d.title}-${i}`} className="col-sm-12">
-                  <Video title={d.title} src={d.src} />
+                  <TikTokEmbed url={d.url} height={271}/>
                 </div>
               ))
             : "Loading..."}
