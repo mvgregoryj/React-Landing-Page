@@ -44,10 +44,6 @@
     {
       "title": "Titulo 3",
       "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7335047229302082862"
-    },
-    {
-      "title": "Titulo 4",
-      "url": "https://www.tiktok.com/@jeanmarcelcorrea/video/7333188939638934826"
     }
   ],
   "Testimonials": [
@@ -117,11 +113,12 @@
     }
   ],
   "Contact": {
+    "foto_perfil": "img/foto_perfil.png",
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
     "email": "info@company.com",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
+    "instagram": "https://www.instagram.com/jeanmarcelcorrea_",
     "youtube": "youtube.com"
   }
 }

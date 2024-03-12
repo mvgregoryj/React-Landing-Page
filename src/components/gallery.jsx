@@ -18,18 +18,6 @@ export const Gallery = (props) => {
               ))
             : "Loading..."}
         </div>
-        <div className="row">
-          {props.data
-            ? props.data.slice(3, 4).map((d, i) => (
-                // <div key={`${d.title}-${i}`} className="col-sm-12">
-                //   <Video title={d.title} src={d.src} />
-                // </div>
-                <div key={`${d.title}-${i}`} className="col-sm-12">
-                  <TikTokEmbed url={d.url} height={271}/>
-                </div>
-              ))
-            : "Loading..."}
-        </div>
       </div>
     </div>
   );

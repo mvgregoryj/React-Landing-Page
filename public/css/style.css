@@ -467,8 +467,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: rgba(255, 255, 255, 0.75);
+  background: #f6f6f6;
+  color: #000;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -476,8 +476,14 @@ header .intro-text {
 #contact .section-title p {
   font-size: 16px;
 }
+#contact h1 {
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
 #contact h2 {
-  color: #fff;
+  color: #000;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -492,7 +498,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #000;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
