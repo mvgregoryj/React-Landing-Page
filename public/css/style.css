@@ -360,6 +360,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 20px 0;
+  background: #f6f6f6;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;

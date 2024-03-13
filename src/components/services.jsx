@@ -7,10 +7,10 @@ export const Services = (props) => {
         {/* <div className="col-md-10 col-md-offset-1 section-title">
           <h2>Services</h2>
         </div> */}
-        <div className="row">
+        <div className="row justify-content-md-center">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-lg">
+                <button type="button" key={`${d.title}-${i}`} className="col-sm mx-4 btn btn-light">
                   {" "}
                   {/* <i className={d.icon}></i> */}
                   <div>
@@ -25,7 +25,7 @@ export const Services = (props) => {
                   {/* Background de Color orange en el siguiente h3 y color blanco las letras */}
                   <h3 style={{ backgroundColor: "#FE6600" , color: "#FFFFF"}}>{d.title}</h3>
                   <h3>POR {d.price}</h3>
-                </div>
+                </button>
               ))
             : "Loading..."}
         </div>
